@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    font-size: 20px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 3em;
+    color: #222222;
+    line-height: 1;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.container-960-center{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Informações */
+
+.contato{
+    background-color: #122AB2;
+}
+
+.info{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.ctt{
+    color: white;
+    margin: 0px 10px 10px 10px;
+    font-size: 16px;
+}
+
+/* MENU */
+
+header{
+    background-color: #2C70FF;
+}
+
+header h1{
+    font-size: 36px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+li a:hover{
+    color: #122AB2;
+}
+
+.menu{
+    padding: 15px 0;
+}
+
+/* SOBRE */
+
+#sobre{
+    border-top: #2C70FF solid 2px;
+    border-bottom: #2C70FF solid 2px;
+}
+
+.sobre-info{
+    margin-left: 10px;
+    max-width: 440px;
+}
+
+.sobre-info h2{
+    margin-bottom: 24px;
+    /* line-height: 20px; */
+}
+
+.sobre-info p{
+    font-size: 20px;
+    color: #7c7c7c;
+    margin: 0 0 10px 0;
+}
+
+.img-sobre{
+    margin: 0 5px;
+    flex: 1 1 160px;
+}
+
+/* PRODUTOS */
+
+#produtos{
+    padding-top: 35px;
+}
+
+.card-produto{
+    background-color: #F7F7F7;
+    flex: 1;
+    margin: 10px 10px;
+}
+
+.card-produto h2{
+    padding: 70px 0;
+    color: #A4A4A4;
+    margin-left: 15px;
+}
+
+.colors{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.purple{
+    border-top: 8px solid #AE81FF;
+}
+
+.pink{
+    border-top: 8px solid #F9265E;
+}
+
+.blue{
+    border-top: 8px solid #66D9EB;
+}
+
+/* PRECOS */
+
+#preco{
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 10px;
+}
+
+.card-type{
+    border: solid 4px white;
+    margin: 10px;
+    padding: 15px;
+    flex: 1;
+}
+
+.card-type-name{
+    display: flex;
+    justify-content: center;
+    padding: 30px 55px;
+}
+
+.card-type-name h2{
+    color: #A4A4A4;
+}
+
+.card-type-money{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    display: flex;
+    justify-content: center;
+    padding: 15px 25px;
+}
+
+.card-type-money sup{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.card-type ul{
+    padding: 10px 0;
+    display: block;
+}
+
+.card-type ul li{
+    color: #7C7C7C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+
+.card-type ul li::after{
+    content: "";
+    height: 6px;
+    width: 6px;
+    background-color: #2C70FF;
+    border-radius: 50%;
+}
+
+.card-type button{
+    background-color: transparent;
+    border: black 4px solid;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* QUALIDADE */
+
+#qualid{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.qualid-card{
+    max-width: 300px;
+    margin-right: 13px;
+    margin-bottom: 25px;
+}
+
+.qualid-card h2{
+    font-size: 2.25em;
+    color: #A4A4A4;
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.qualid-card h2::before{
+    content: "";
+    height: 30px;
+    width: 8px;
+    margin-right: 10px;
+}
+
+.roxo::before{
+    background-color: #AE81FF;
+}
+
+.vermelho::before{
+    background-color: #F9265E;
+}
+
+.azul::before{
+    background-color: #66D9EB;
+}
+
+.qualid-card p{
+    font-size: 1.25em;
+    color: #7C7C7C;
+}
+
+/* CONTATO */
+
+#contato{
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 65px 40px;
+}
+
+#contato h2{
+    color: #A4A4A4;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#contato p{
+    max-width: 250px;
+    font-size: 1.25em;
+    color: #7C7C7C;
+}
+
+.contato-info{
+    margin-bottom: 10px;
+}
+
+.contato-email{
+    background-color: #2C70FF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato-email input{
+    background-color: #F7F7F7;
+    border: solid 4px #2C70FF;
+    font-size: 20px;
+    color: #7C7C7C;
+    padding: 15px 40px 15px 10px;
+}
+
+.contato-email button{
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 40px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    padding: 80px 25px;
+    background-color: #2C70FF;
+    font-size: 35px;
+    color: #122AB2;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 390px){
+    .colors{
+        flex-direction: column;
+    }
+
+    .img-sobre{
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 450px){
+    #produtos{
+        padding: 60px 0;
+    }
+
+}
+
+@media (max-width: 700px){
+    #contato{
+        padding: 60px 10px;
+    }
+    
+    .contato-email input{
+        flex: 1;
+    }
+
+    .contato-email button{
+        flex: 1;
+    }
+}
